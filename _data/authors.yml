@@ -3,7 +3,7 @@
 # Change `author1` to your shortname.
 author1:
   name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  email:             info@mklabs.io
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -26,9 +26,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    # twitter:         <username>
+    github:          mklabs-io
+    email:           info@mklabs.io
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -71,9 +71,7 @@ author2:
   name:              <firtname> <lastname>
   email:             <mail@domain.tld>
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Awesome typ
 
     Open `_data/authors.yml` to edit this text.
 

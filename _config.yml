@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 mklabs
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               shoot a tagline in _config.yaml
 
 # A list of keywords for your blog
 keywords:              []
@@ -43,18 +43,22 @@ logo:                  /assets/img/logo.png
 author:
   # Used by `jekyll-feed`:
   name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  email:               info@mklabs.io
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
+  - title:             Blog
+    url:               /
   - title:             Example
     url:               /example/
   - title:             Documentation
     url:               /docs/
   - title:             About
     url:               /about/
+  - title:             Hire Us
+    url:               /hire
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -169,7 +173,7 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-192548252-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
